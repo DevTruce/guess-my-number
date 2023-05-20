@@ -6,7 +6,7 @@ let hiddenNumber = Math.trunc(Math.random() * 100 + 1); // random number between
 let score = Number(document.querySelector(".score").textContent); // stored highscore and converted into a number data type
 let highScore = 0;
 
-console.log(hiddenNumber); //// DEBUGGING
+// console.log(hiddenNumber); //// DEBUGGING
 
 /////////////////////////////////////////////////////////
 //// Function expressions to keep code clean and reusable
@@ -82,5 +82,5 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector("body").style.backgroundColor = "#333";
   document.querySelector(".number").style.width = "15rem";
 
-  console.log(hiddenNumber); //// DEBUGGING
+  // console.log(hiddenNumber); //// DEBUGGING
 });
