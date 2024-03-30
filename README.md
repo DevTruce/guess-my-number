@@ -18,7 +18,7 @@
 <h3 align="center">Guess My Number</h3>
 
   <p align="center">
-    guess my number to win! 
+    learning project  
     <br />
     <br />
     <a href="https://devtruce.github.io/guess-my-number/" target="_blank">View Demo</a>
