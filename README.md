@@ -5,8 +5,6 @@
 [![Contributors][contributors-icon]][contributors-link]
 [![Forks][forks-icon]][forks-link]
 [![Stargazers][stars-icon]][stars-link]
-[![Issues][issues-icon]][issues-link]
-[![MIT License][license-icon]][license-link]
 
 </div>
 
@@ -14,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DevTruce/guess-my-number">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="src/imgs/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Guess My Number</h3>
@@ -22,46 +20,27 @@
   <p align="center">
     guess my number to win! 
     <br />
-    <a href="https://github.com/DevTruce/guess-my-number" target="_blank"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://devtruce.github.io/guess-my-number/" target="_blank">View Demo</a>
-    ·
-    <a href="https://github.com/DevTruce/guess-my-number/issues" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/DevTruce/guess-my-number/issues" target="_blank">Request Feature</a>
+    
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#usage">Usage</a></li>
-      </ul>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](product-link)
-[![Product Name Screen Shot][product-screenshot2]](product-link)
-Guess my number game! I had a blast developing this projects and I really enjoy playing it as well! The way the game works is as follows: Once you
+I had a blast developing this projects and I really enjoy playing it as well! The way the game works is as follows: Once you
 load into the game the bot will automatically have thought of a number
 between 1 and 100. You can input your number guess into the input field
 and click on the check button to compare your number to the bot and instantly you will be given a reponse as if your guess was correct or not,
 be careful tho as you only have 20 attempts to guess correct!
 After each game you can click the again button to play again and try
 to beat your last highscore!
+
+[![Product Name Screen Shot][product-screenshot]](product-link)
+
+[![Product Name Screen Shot][product-screenshot2]](product-link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,22 +52,6 @@ to beat your last highscore!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Play and enjoy the guess my number game
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
@@ -96,14 +59,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Email: [DevTruce@Gmail.com]()
 
 Discord: [xzypher.]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [MDN Documentation](https://developer.mozilla.org/en-US/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +83,8 @@ Discord: [xzypher.]()
 
 <!-- ## Project ## -->
 
-[product-screenshot]: screenshot.png
-[product-screenshot2]: screenshot2.png
+[product-screenshot]: src/imgs/screenshot.png
+[product-screenshot2]: src/imgs/screenshot2.png
 [product-link]: https://devtruce.github.io/guess-my-number/
 
 <!-- ## Tech & Tools ## -->
