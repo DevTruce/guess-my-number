@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////////////////////
 //// Initializing game variables
-let hiddenNumber = Math.trunc(Math.random() * 20 + 1); // random number between 1 - 20
+let hiddenNumber = Math.trunc(Math.random() * 100 + 1); // random number between 1 - 100
 let score = Number(document.querySelector(".score").textContent); // stored highscore and converted into a number data type
 let highScore = 0;
 
@@ -46,7 +46,7 @@ document.querySelector(".check").addEventListener("click", function () {
     }
 
     // display hidden number when the player wins
-    console.log(displayNumber(hiddenNumber));
+    displayNumber(hiddenNumber);
 
     // changing background color upon winning
     document.querySelector("body").style.backgroundColor = "#60b347";
@@ -73,7 +73,7 @@ document.querySelector(".check").addEventListener("click", function () {
 //// RESET GAME
 document.querySelector(".again").addEventListener("click", function () {
   score = 20;
-  hiddenNumber = Math.trunc(Math.random() * 20 + 1);
+  hiddenNumber = Math.trunc(Math.random() * 100 + 1);
 
   displayNumber("?");
   displayScore(score);
@@ -82,5 +82,5 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector("body").style.backgroundColor = "#333";
   document.querySelector(".number").style.width = "15rem";
 
-  //   console.log(hiddenNumber); //// DEBUGGING
+  // console.log(hiddenNumber); //// DEBUGGING
 });
