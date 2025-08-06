@@ -18,7 +18,7 @@
 <h3 align="center">Guess My Number</h3>
 
   <p align="center">
-    learning project  
+    Users try to guess a secret number between 1 and 100, with feedback on each guess and a score that decreases over time. Includes high score tracking and a retro UI.  
     <br />
     <br />
     <a href="https://devtruce.github.io/guess-my-number/" target="_blank">View Demo</a>
